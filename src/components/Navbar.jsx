@@ -64,28 +64,28 @@ const Navbar = () => {
         {/* Menu Links (Hidden on mobile, visible on larger screens) */}
         <div className="hidden md:flex space-x-6 pr-6">
           <a
-            href="#movies"
+            href="/upcoming"
             className={linkClasses("movies")}
             onClick={() => handleLinkClick("movies")}
           >
-            Movies
+            Upcoming
           </a>
           <a
-            href="#tv-shows"
+            href="/top_rated"
             className={linkClasses("tv-shows")}
             onClick={() => handleLinkClick("tv-shows")}
           >
-            TV Shows
+            Top Rated
           </a>
           <a
-            href="#popular"
+            href="/popular"
             className={linkClasses("popular")}
             onClick={() => handleLinkClick("popular")}
           >
             Popular
           </a>
           <a
-            href="#about"
+            href="/about"
             className={linkClasses("about")}
             onClick={() => handleLinkClick("about")}
           >
@@ -104,7 +104,7 @@ const Navbar = () => {
                 className={linkClasses("movies")}
                 onClick={() => handleLinkClick("movies")}
               >
-                Movies
+                Top Rated
               </a>
             </li>
             <li>
@@ -113,7 +113,7 @@ const Navbar = () => {
                 className={linkClasses("tv-shows")}
                 onClick={() => handleLinkClick("tv-shows")}
               >
-                TV Shows
+                Upcoming
               </a>
             </li>
             <li>
